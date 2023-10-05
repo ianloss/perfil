@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        
+<h1>Entre em Contato</h1>
+        
+       
+<form>
+            
+           
+<label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            
+
+<label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="teleone" name="telefone" required>
+
+<label for="cliente">Selecione o Tipo de Cliente:</label> 
+            <div class="checkbox-container">
+        
+    <label class="checkbox-label" for="pessoaFisica">Pessoa Física</label>
+      <input type="checkbox" id="pessoaFisica" class="checkbox-input" name="tipoCliente" value="pessoaFisica">
+                    
+    </div>
+                <div class="checkbox-container">
+
+                        <label class="checkbox-label" for="pessoaJuridica">Pessoa Jurídica</label>
+                        
+                        
+                <input type="checkbox" id="pessoaJuridica" class="checkbox-input" name="tipoCliente" value="pessoaJuridica">
+                    
+                </div>
+                
+    
+   
+<label for="horarios">Selecione um Horário para Contato:</label>
+
+<select id="horarios">
+        
+        
+<option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        
+        
+<option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        
+        
+<option value="13:00">13:00</option>
+        
+       
+<option value="14:00">14:00</option>
+        
+        
+<option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        
+        
+<option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+    </select><br>
+<br>
+
+
+    <label for="serviços">Serviço desejado:</label>
+<input type="text" id="serviços" name="serviço desejado" required><br>
+          
+<label for="mensagem">Descrição do serviço desejado:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            
+
+            
+<button type="submit">Enviar</button>
+        
+</form>
+
+    </div>
+</body>
+</html>
